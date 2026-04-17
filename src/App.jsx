@@ -4,7 +4,7 @@ import Detail from './pages/Detail'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/WikiPaises_Web">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/country/:code" element={<Detail />} />
